@@ -1,6 +1,5 @@
 -- models/sales-snowflake/SALESFORCE_OPPORTUNITY.sql
 {{ config(
-    schema='FVT_SALESFORCE',
     materialized="table"
 ) }}
 SELECT 
