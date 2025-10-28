@@ -1,0 +1,33 @@
+# models/sources.yml
+version: 2
+
+sources:
+  - name: FVT_SALESFORCE
+    database: INTERNAL_BIZOPS
+    schema: FVT_SALESFORCE
+    tables:
+      - name: ACCOUNT
+      - name: DATED_CONVERSION_RATE
+      - name: INDICADORES_SAA_S_C
+      - name: USER
+      - name: COLABORADORES_C
+      - name: ORDER
+      - name: ORDER_ITEM
+      - name: LICENCA_HISTORY
+      - name: OPPORTUNITY_LINE_ITEM
+      - name: OPPORTUNITY
+      - name: PRODUCT_2
+      - name: LICENCA_C
+      - name: CONTRACT
+      - name: PRECO_C
+      - name: TABELA_DE_PRECOS_C
+      - name: COLABORADORES_HISTORY
+      - name: ACCOUNT_HISTORY
+      - name: CONTRACT_HISTORY
+      - name: OPPORTUNITY_HISTORY
+      - name: SUCESSO_C
+      - name: SISTEMA_C
+      - name: AMBIENTE_C
+    config:
+      meta:
+        connection: SNOWFLAKE_BIZOPS
